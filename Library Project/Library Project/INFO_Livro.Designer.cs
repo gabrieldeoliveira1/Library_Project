@@ -1,6 +1,6 @@
 ﻿namespace Library_Project
 {
-    partial class Form1
+    partial class INFO_Livro
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(INFO_Livro));
             BNT_Voltar_ao_inicio = new Button();
             BNT_Reservar = new Button();
             panel1 = new Panel();

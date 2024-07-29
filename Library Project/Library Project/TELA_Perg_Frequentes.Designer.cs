@@ -1,6 +1,6 @@
 ﻿namespace Library_Project
 {
-    partial class Form2
+    partial class TELA_Perg_Frequentes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TELA_Perg_Frequentes));
             SuspendLayout();
             // 
-            // Form2
+            // TELA_Perg_Frequentes
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1331, 455);
-            Name = "Form2";
-            Text = "Form2";
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(1497, 898);
+            Name = "TELA_Perg_Frequentes";
+            Text = "TELA_Perg_Frequentes";
             ResumeLayout(false);
         }
 

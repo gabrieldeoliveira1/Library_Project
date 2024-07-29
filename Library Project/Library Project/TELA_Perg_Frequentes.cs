@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Library_Project
 {
-    public partial class Form2 : Form
+    public partial class TELA_Perg_Frequentes : Form
     {
-        public Form2()
+        public TELA_Perg_Frequentes()
         {
             InitializeComponent();
         }

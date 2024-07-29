@@ -3,7 +3,6 @@ C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\bin\Debug\net8.0-windows\Library Project.runtimeconfig.json
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\bin\Debug\net8.0-windows\Library Project.dll
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\bin\Debug\net8.0-windows\Library Project.pdb
-C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.Form1.resources
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.Properties.Resources.resources
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library Project.csproj.GenerateResource.cache
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library Project.GeneratedMSBuildEditorConfig.editorconfig
@@ -16,3 +15,9 @@ C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library Project.pdb
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library Project.genruntimeconfig.cache
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\ref\Library Project.dll
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.INFO_Livro.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.INFO_Unidade.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.TELA_ReservaNegada.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.TELA_Reserva_feita.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.TELA_Perg_Frequentes.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.TELA_Reserva_Cance_Usuario.resources

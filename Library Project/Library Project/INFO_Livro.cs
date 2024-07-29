@@ -1,8 +1,8 @@
 namespace Library_Project
 {
-    public partial class Form1 : Form
+    public partial class INFO_Livro : Form
     {
-        public Form1()
+        public INFO_Livro()
         {
             InitializeComponent();
         }
@@ -14,7 +14,7 @@ namespace Library_Project
 
         private void BNT_Reservar_Click(object sender, EventArgs e)
         {
-
+  
         }
     }
 }
