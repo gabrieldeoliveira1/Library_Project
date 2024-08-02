@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library_Project.modelo
 {
-    internal class ModeloLivro
+    public class ModeloLivro
     {
         
         //declaro as variaveis do sistema com relacao ao banco de dados
