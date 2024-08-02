@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\modelo\\modelolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\modelo\\modelolivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reserva_cance_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reserva_cance_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reserva_cance_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reserva_cance_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_perg_frequentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -43,31 +43,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Program.cs",
-              "RelativeDocumentMoniker": "Library Project\\Program.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Program.cs",
-              "RelativeToolTip": "Library Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Title": "ModeloLivro.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\modelo\\ModeloLivro.cs",
+              "RelativeDocumentMoniker": "Library Project\\modelo\\ModeloLivro.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\modelo\\ModeloLivro.cs",
+              "RelativeToolTip": "Library Project\\modelo\\ModeloLivro.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T16:50:27.38Z",
+              "WhenOpened": "2024-08-02T12:59:10.83Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "INFO_Livro.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
-              "RelativeDocumentMoniker": "Library Project\\INFO_Livro.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs [Projeto]",
-              "RelativeToolTip": "Library Project\\INFO_Livro.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Conexao.cs",
+              "RelativeDocumentMoniker": "Library Project\\Conexao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Conexao.cs",
+              "RelativeToolTip": "Library Project\\Conexao.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAtwGEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T14:07:38.727Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-08-02T11:44:12.736Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "INFO_Unidade.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Unidade.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Unidade.cs",
@@ -79,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "TELA_ReservaNegada.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_ReservaNegada.cs",
               "RelativeDocumentMoniker": "Library Project\\TELA_ReservaNegada.cs",
@@ -91,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TELA_Reserva_Feita.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Feita.cs",
               "RelativeDocumentMoniker": "Library Project\\TELA_Reserva_Feita.cs",
@@ -103,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TELA_Reserva_Cance_Usuario.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Cance_Usuario.cs",
               "RelativeDocumentMoniker": "Library Project\\TELA_Reserva_Cance_Usuario.cs",
@@ -124,6 +125,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T16:45:45.274Z",
               "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
