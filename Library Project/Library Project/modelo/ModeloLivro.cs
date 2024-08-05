@@ -22,12 +22,12 @@ namespace Library_Project.modelo
 
             //iniciar as variaveis zeradas
 
-            Nome_Livro = null;
+            Nome_Livro = "";
             QTD_estoque = 0;
             Numb_Paginas = 0;
             Edicao_Livro = 0;
-            IMG_Livro = null;
-            Descricao_Livro = null;
+            IMG_Livro = "";
+            Descricao_Livro = "";
         
         
         }

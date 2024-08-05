@@ -12,7 +12,7 @@ namespace Library_Project
     {
         static private string servidor = "localhost";
         //nome do bd
-        static private string DB = "Biblio_Sesi";
+        static private string DB = "biblio_sesi";
         //usuario bd
         static private string usuario = "root";
         //senha de acesso ao bd
@@ -20,7 +20,7 @@ namespace Library_Project
         //variavel de conexao ao bd
         public MySqlConnection conn = null;
         //caminho da conexao ao bd
-        static private string StrConexao = "server" + servidor + ";database" + DB + ";userid" + usuario + ";password" + senhas;
+        static private string StrConexao = "server=" + servidor + ";database=" + DB + ";userid=" + usuario + ";password=" + senhas;
 
 
         //Metodo de conexao
