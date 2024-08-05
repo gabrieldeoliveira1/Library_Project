@@ -35,9 +35,12 @@
             panel2 = new Panel();
             label1 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            label2 = new Label();
+            flowLayoutPanel2 = new FlowLayoutPanel();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // BNT_Voltar_ao_inicio
@@ -86,22 +89,44 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Source Code Pro", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(142, 51);
             label1.TabIndex = 4;
             label1.Text = "label1";
+            label1.Click += label1_Click_1;
             // 
             // flowLayoutPanel1
             // 
             flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.BackColor = Color.Transparent;
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Location = new Point(637, 382);
+            flowLayoutPanel1.Location = new Point(625, 382);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(744, 361);
+            flowLayoutPanel1.Size = new Size(756, 361);
             flowLayoutPanel1.TabIndex = 5;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Source Code Pro", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(3, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(340, 121);
+            label2.TabIndex = 6;
+            label2.Text = "label2";
+            label2.Click += label2_Click;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.BackColor = Color.Transparent;
+            flowLayoutPanel2.Controls.Add(label2);
+            flowLayoutPanel2.Location = new Point(625, 80);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(753, 116);
+            flowLayoutPanel2.TabIndex = 7;
             // 
             // INFO_Livro
             // 
@@ -109,16 +134,20 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1497, 898);
+            Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "INFO_Livro";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
+            flowLayoutPanel2.ResumeLayout(false);
+            flowLayoutPanel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -130,5 +159,7 @@
         private Panel panel2;
         private Label label1;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Label label2;
+        private FlowLayoutPanel flowLayoutPanel2;
     }
 }

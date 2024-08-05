@@ -27,5 +27,13 @@ namespace Library_Project
             info.ShowDialog();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ModeloUnidade modeloUnidade = new ModeloUnidade();
+            modeloUnidade.CD_Unidade = 0;
+            INFO_Unidade info = new INFO_Unidade();
+            info.ShowDialog();
+        }
     }
 }

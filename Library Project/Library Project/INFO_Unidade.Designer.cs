@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(INFO_Unidade));
             BNT_Confirmar_Unidade = new Button();
             panel1 = new Panel();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -55,6 +56,16 @@
             panel1.Size = new Size(605, 60);
             panel1.TabIndex = 2;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(794, 106);
+            label1.Name = "label1";
+            label1.Size = new Size(50, 20);
+            label1.TabIndex = 3;
+            label1.Text = "label1";
+            label1.Click += label1_Click;
+            // 
             // INFO_Unidade
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -62,16 +73,20 @@
             BackColor = SystemColors.ControlDarkDark;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1497, 878);
+            Controls.Add(label1);
             Controls.Add(panel1);
             Name = "INFO_Unidade";
             Text = "Form2";
+            Load += INFO_Unidade_Load;
             panel1.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button BNT_Confirmar_Unidade;
         private Panel panel1;
+        private Label label1;
     }
 }
