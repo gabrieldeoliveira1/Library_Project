@@ -1,2 +1,2 @@
 # Library_Project
-Library Project for my school. C# and MySql. 
+Library Project for my school. It involves C# and MySQL. 
