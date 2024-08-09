@@ -32,7 +32,10 @@
             BNT_Confirmar_Unidade = new Button();
             panel1 = new Panel();
             label1 = new Label();
+            label2 = new Label();
+            flowLayoutPanel1 = new FlowLayoutPanel();
             panel1.SuspendLayout();
+            flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // BNT_Confirmar_Unidade
@@ -59,12 +62,31 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(794, 106);
+            label1.Font = new Font("Source Code Pro", 48F, FontStyle.Bold);
+            label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(50, 20);
+            label1.Size = new Size(340, 121);
             label1.TabIndex = 3;
             label1.Text = "label1";
             label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Source Code Pro", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(135, 80);
+            label2.Name = "label2";
+            label2.Size = new Size(0, 121);
+            label2.TabIndex = 6;
+            // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.BackColor = Color.Transparent;
+            flowLayoutPanel1.Controls.Add(label1);
+            flowLayoutPanel1.Location = new Point(30, 80);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(704, 104);
+            flowLayoutPanel1.TabIndex = 9;
             // 
             // INFO_Unidade
             // 
@@ -73,12 +95,16 @@
             BackColor = SystemColors.ControlDarkDark;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1497, 878);
-            Controls.Add(label1);
+            Controls.Add(flowLayoutPanel1);
+            Controls.Add(label2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "INFO_Unidade";
             Text = "Form2";
             Load += INFO_Unidade_Load;
             panel1.ResumeLayout(false);
+            flowLayoutPanel1.ResumeLayout(false);
+            flowLayoutPanel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -88,5 +114,7 @@
         private Button BNT_Confirmar_Unidade;
         private Panel panel1;
         private Label label1;
+        private Label label2;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }

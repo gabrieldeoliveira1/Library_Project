@@ -1,4 +1,5 @@
 ﻿using Library_Project.controle;
+using Library_Project.modelo;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,13 +14,14 @@ namespace Library_Project
 {
     public partial class INFO_Unidade : Form
     {
-
+        ModeloUnidade unidade = new ModeloUnidade();
         ControleLivro controle = new ControleLivro();
-        String codi = "";
+        int codi = 0;
         String nom = "";
 
-        public INFO_Unidade()
+        public INFO_Unidade(ModeloUnidade unidade)
         {
+            codi = unidade.CD_Unidade;
             InitializeComponent();
         }
 
@@ -37,7 +39,7 @@ namespace Library_Project
                 dados = cn.obterdados("Select * from Table_Unidade where CD_Unidade = '" + codi + "'");
                 //livro.Descricao_Livro = dados.Rows[0][7].ToString();
 
-                nom = dados.Rows[1][0].ToString();
+                nom = dados.Rows[0][1].ToString();
                 label1.Text = nom;
                 
             }

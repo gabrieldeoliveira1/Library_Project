@@ -17,6 +17,7 @@ namespace Library_Project.modelo
         public int Edicao_Livro;
         public string IMG_Livro;
         public string Descricao_Livro;
+        public int Index_Unidade;
 
         public ModeloLivro() {
 
@@ -28,6 +29,7 @@ namespace Library_Project.modelo
             Edicao_Livro = 0;
             IMG_Livro = "";
             Descricao_Livro = "";
+            Index_Unidade = 0;
         
         
         }
