@@ -34,6 +34,7 @@
             label1 = new Label();
             label2 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
+            label3 = new Label();
             panel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
@@ -88,6 +89,15 @@
             flowLayoutPanel1.Size = new Size(704, 104);
             flowLayoutPanel1.TabIndex = 9;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(812, 101);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 10;
+            label3.Text = "label3";
+            // 
             // INFO_Unidade
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -95,6 +105,7 @@
             BackColor = SystemColors.ControlDarkDark;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1497, 878);
+            Controls.Add(label3);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -116,5 +127,6 @@
         private Label label1;
         private Label label2;
         private FlowLayoutPanel flowLayoutPanel1;
+        private Label label3;
     }
 }

@@ -35,11 +35,14 @@ namespace Library_Project
 
         private void button2_Click(object sender, EventArgs e)
         {
+              
             // isso é apenas para teste 
             modeloLivro.Index_Unidade = 1;
             //continuação
             unidade.CD_Unidade = modeloLivro.Index_Unidade;
-            INFO_Unidade info = new INFO_Unidade(unidade);
+            modeloLivro.CD_Livro = comboBox1.Text;
+
+            INFO_Unidade info = new INFO_Unidade(unidade, modeloLivro);
             info.ShowDialog();
         }
 
