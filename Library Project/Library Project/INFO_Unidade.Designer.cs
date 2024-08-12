@@ -35,8 +35,11 @@
             label2 = new Label();
             flowLayoutPanel1 = new FlowLayoutPanel();
             label3 = new Label();
+            flowLayoutPanel2 = new FlowLayoutPanel();
+            label4 = new Label();
             panel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
+            flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // BNT_Confirmar_Unidade
@@ -63,10 +66,10 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Source Code Pro", 48F, FontStyle.Bold);
+            label1.Font = new Font("Source Code Pro", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(3, 0);
             label1.Name = "label1";
-            label1.Size = new Size(340, 121);
+            label1.Size = new Size(185, 67);
             label1.TabIndex = 3;
             label1.Text = "label1";
             label1.Click += label1_Click;
@@ -84,7 +87,7 @@
             // 
             flowLayoutPanel1.BackColor = Color.Transparent;
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Location = new Point(30, 80);
+            flowLayoutPanel1.Location = new Point(809, 80);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(704, 104);
             flowLayoutPanel1.TabIndex = 9;
@@ -92,11 +95,33 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(812, 101);
+            label3.Font = new Font("Source Code Pro", 25.8000011F, FontStyle.Bold);
+            label3.ForeColor = Color.FromArgb(255, 207, 0);
+            label3.Location = new Point(3, 0);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(185, 67);
             label3.TabIndex = 10;
             label3.Text = "label3";
+            label3.Click += label3_Click_1;
+            // 
+            // flowLayoutPanel2
+            // 
+            flowLayoutPanel2.BackColor = Color.Transparent;
+            flowLayoutPanel2.Controls.Add(label3);
+            flowLayoutPanel2.Location = new Point(32, 76);
+            flowLayoutPanel2.Name = "flowLayoutPanel2";
+            flowLayoutPanel2.Size = new Size(691, 125);
+            flowLayoutPanel2.TabIndex = 4;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(815, 417);
+            label4.Name = "label4";
+            label4.Size = new Size(50, 20);
+            label4.TabIndex = 10;
+            label4.Text = "label4";
+            label4.Click += label4_Click;
             // 
             // INFO_Unidade
             // 
@@ -105,7 +130,8 @@
             BackColor = SystemColors.ControlDarkDark;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1497, 878);
-            Controls.Add(label3);
+            Controls.Add(label4);
+            Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label2);
             Controls.Add(panel1);
@@ -116,6 +142,8 @@
             panel1.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
+            flowLayoutPanel2.ResumeLayout(false);
+            flowLayoutPanel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -128,5 +156,7 @@
         private Label label2;
         private FlowLayoutPanel flowLayoutPanel1;
         private Label label3;
+        private FlowLayoutPanel flowLayoutPanel2;
+        private Label label4;
     }
 }

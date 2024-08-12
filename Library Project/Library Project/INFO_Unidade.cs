@@ -18,7 +18,7 @@ namespace Library_Project
         ModeloLivro livro = new ModeloLivro();
         ControleLivro controle = new ControleLivro();
         int codi = 0;
-        String nom = "";
+        DataTable nom;
         String nome_livro = "";
         String codi1 = "";
 
@@ -41,17 +41,13 @@ namespace Library_Project
             try
             {
                 DataTable dados;
-                dados = cn.obterdados("Select * from Table_Unidade where CD_Unidade = '" + codi + "'"); ;
-                //livro.Descricao_Livro = dados.Rows[0][7].ToString();
+                dados = cn.obterdados("select Table_Livro.Nome_Livro, Table_Unidade.Nome_Unidade, Table_Livro.Descricao_Livro from Table_Livro Inner Join Table_Unidade on Table_Unidade.CD_Unidade = Table_Livro.CFK_Unidade where Table_Livro.CD_Livro = '" + codi + "'");
 
-                DataTable dados1;
-                dados1 = cn.obterdados("Select * from Table_Livro where CD_Livro = '" + codi1 + "'");
+                nom = dados;
 
-
-                nom = dados.Rows[0][1].ToString();
-                nome_livro = dados1.Rows[0][1].ToString();
-                label1.Text = nom;
-                label3.Text = nome_livro;
+                label1.Text = nom.Rows[0]["Nome_Livro"].ToString();
+                label3.Text = nom.Rows[0]["Nome_Unidade"].ToString();
+                label4.Text = nom.Rows[0]["Descricao_Livro"].ToString();
 
             }
             catch (Exception ex)
@@ -61,6 +57,16 @@ namespace Library_Project
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

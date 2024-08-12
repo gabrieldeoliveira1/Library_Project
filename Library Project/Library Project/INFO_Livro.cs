@@ -30,7 +30,6 @@ namespace Library_Project
             {
                 DataTable dados;
                 dados = cn.obterdados("Select * from Table_Livro where CD_Livro = '" + codi + "'");
-                //livro.Descricao_Livro = dados.Rows[0][7].ToString();
 
                 descricao = dados.Rows[0][7].ToString();
                 label1.Text = descricao;

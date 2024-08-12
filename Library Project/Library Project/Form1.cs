@@ -37,7 +37,7 @@ namespace Library_Project
         {
               
             // isso é apenas para teste 
-            modeloLivro.Index_Unidade = 1;
+            modeloLivro.Index_Unidade = comboBox1.SelectedIndex + 1;
             //continuação
             unidade.CD_Unidade = modeloLivro.Index_Unidade;
             modeloLivro.CD_Livro = comboBox1.Text;
