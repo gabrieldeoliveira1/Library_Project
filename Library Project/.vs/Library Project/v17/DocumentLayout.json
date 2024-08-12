@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_unidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -15,27 +27,15 @@
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\modelo\\modelounidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\modelo\\modelounidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\modelo\\modelounidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Form1.cs",
               "RelativeDocumentMoniker": "Library Project\\Form1.cs",
@@ -63,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Conexao.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Conexao.cs",
               "RelativeDocumentMoniker": "Library Project\\Conexao.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Conexao.cs",
               "RelativeToolTip": "Library Project\\Conexao.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAwFsAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T16:47:49.05Z",
               "IsPinned": true,
@@ -77,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "INFO_Livro.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Livro.cs",
@@ -90,33 +90,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "INFO_Unidade.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Unidade.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Unidade.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Unidade.cs",
               "RelativeToolTip": "Library Project\\INFO_Unidade.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAADwvzYAAAAQAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwCsAAADdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T16:49:24.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "INFO_Livro.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Livro.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
               "RelativeToolTip": "Library Project\\INFO_Livro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAApwC8AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T12:06:25.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "INFO_Unidade.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Unidade.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Unidade.cs",
@@ -128,13 +128,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Form1.cs",
               "RelativeDocumentMoniker": "Library Project\\Form1.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Form1.cs",
               "RelativeToolTip": "Library Project\\Form1.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAABDAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACcAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-09T16:51:11.413Z",
               "EditorCaption": ""

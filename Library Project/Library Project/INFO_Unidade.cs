@@ -41,7 +41,7 @@ namespace Library_Project
             try
             {
                 DataTable dados;
-                dados = cn.obterdados("select Table_Livro.Nome_Livro, Table_Unidade.Nome_Unidade, Table_Livro.Descricao_Livro from Table_Livro Inner Join Table_Unidade on Table_Unidade.CD_Unidade = Table_Livro.CFK_Unidade where Table_Livro.CD_Livro = '" + codi + "'");
+                dados = cn.obterdados("select Table_Livro.Nome_Livro, Table_Unidade.Nome_Unidade, Table_Livro.Descricao_Livro from Table_Livro Inner Join Table_Unidade on Table_Unidade.CD_Unidade = Table_Livro.CFK_Unidade where Table_Livro.CD_Livro = '" + codi1 + "'");
 
                 nom = dados;
 

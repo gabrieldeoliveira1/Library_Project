@@ -96,6 +96,8 @@ namespace Library_Project
             adpt.Fill(dt);
             
             return dt;  
+
+            conn.Close();   
         }
 
         }

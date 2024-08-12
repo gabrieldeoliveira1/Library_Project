@@ -111,10 +111,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Source Code Pro", 48F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Source Code Pro", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.FromArgb(255, 207, 0);
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
-            label2.Size = new Size(340, 121);
+            label2.Size = new Size(255, 91);
             label2.TabIndex = 6;
             label2.Text = "label2";
             label2.Click += label2_Click;
@@ -123,9 +124,9 @@
             // 
             flowLayoutPanel2.BackColor = Color.Transparent;
             flowLayoutPanel2.Controls.Add(label2);
-            flowLayoutPanel2.Location = new Point(625, 80);
+            flowLayoutPanel2.Location = new Point(625, 93);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(753, 116);
+            flowLayoutPanel2.Size = new Size(753, 109);
             flowLayoutPanel2.TabIndex = 7;
             // 
             // INFO_Livro
