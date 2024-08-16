@@ -34,6 +34,10 @@ namespace Library_Project
                 descricao = dados.Rows[0][7].ToString();
                 label1.Text = descricao;
                 label2.Text = dados.Rows[0][1].ToString();
+
+                //DataTable cadastro;
+                //cadastro = cn.cadastrar ("INSERT INTO Table_reservas (CFK_Livro) VALUES ({label2.Text})");
+
             }
             catch (Exception ex)
             {
@@ -41,11 +45,11 @@ namespace Library_Project
             }
         }
 
-        
 
-    private void BNT_Reservar_Click(object sender, EventArgs e)
+
+        private void BNT_Reservar_Click(object sender, EventArgs e)
         {
-            
+       
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -64,6 +68,11 @@ namespace Library_Project
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BNT_Voltar_ao_inicio_Click(object sender, EventArgs e)
         {
 
         }

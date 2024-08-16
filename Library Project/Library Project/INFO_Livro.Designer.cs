@@ -54,6 +54,7 @@
             BNT_Voltar_ao_inicio.Size = new Size(792, 108);
             BNT_Voltar_ao_inicio.TabIndex = 0;
             BNT_Voltar_ao_inicio.UseVisualStyleBackColor = false;
+            BNT_Voltar_ao_inicio.Click += BNT_Voltar_ao_inicio_Click;
             // 
             // BNT_Reservar
             // 
