@@ -15,6 +15,9 @@ namespace Library_Project
     {
         ModeloLivro modeloLivro = new ModeloLivro();
         ModeloUnidade unidade = new ModeloUnidade();
+        ModeloReservas Modeloreserva = new ModeloReservas();
+        ClUserModelo clUser = new ClUserModelo();
+        Conexao cn = new Conexao();
 
         public Form1()
 
@@ -28,7 +31,7 @@ namespace Library_Project
             //passou o valor selecionado fixo
             modeloLivro.CD_Livro = comboBox1.Text;
            // modeloLivro.CD_Livro = "320C111L2021";
-            INFO_Livro info = new INFO_Livro(modeloLivro);
+            INFO_Livro info = new INFO_Livro(modeloLivro, clUser);
             info.ShowDialog();
 
         }
@@ -48,7 +51,6 @@ namespace Library_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Conexao cn = new Conexao();
             try
             {
                 comboBox1.DataSource = cn.obterdados("Select CD_Livro, Nome_Livro from Table_Livro");

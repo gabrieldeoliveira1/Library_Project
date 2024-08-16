@@ -36,7 +36,7 @@ namespace Library_Project
         //variavel "campos" sao os atributos da entidade
         //variavel "valores" sao os conteudos preenchidos no form
         //variavel sql é o comando a ser realizado
-        public int cadastrar(int codigo, string[] campos, object[] valores, string SQL)
+        public int cadastrar_CMD_MYSql(int codigo, string[] campos, object[] valores, string SQL, String PK_Table)
         {
 
             //VALIDACAO DO SCRIPT
@@ -64,7 +64,7 @@ namespace Library_Project
                 if (registro > 0)
                 {
                     //se o codigo existir no registro, sera substituido aqui para execução
-                    cmd.Parameters.AddWithValue("@Cod_Livro", codigo);
+                    cmd.Parameters.AddWithValue(PK_Table, codigo);
                 }
 
                 //executa o script sql

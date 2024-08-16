@@ -18,8 +18,8 @@ namespace Library_Project.controle
 
 
         //metodo para cadastrar 
-
-        public bool cadastrar(ModeloLivro livro)
+        //Esse cadastrar é apenas demostrativo (SEM UTILIDADE PRATICA)
+        public bool cadastrar_Livro(ModeloLivro livro)
         {
             bool resultado = false;
             try
@@ -31,7 +31,7 @@ namespace Library_Project.controle
                 //monto o vetor com os valores do formulario
                 string[] valores = { livro.Nome_Livro, livro.QTD_estoque.ToString(), livro.Numb_Paginas.ToString(), livro.Edicao_Livro.ToString(), livro.IMG_Livro, livro.Descricao_Livro };
                 //testar o insert no banco de dados
-                if (con.cadastrar(0, campos, valores, sql) >= 1)
+                if (con.cadastrar_CMD_MYSql(0, campos, valores, sql, "@CD_Livro") >= 1)
                 {
                     resultado = true;
                 }
