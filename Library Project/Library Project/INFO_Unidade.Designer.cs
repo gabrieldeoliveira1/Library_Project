@@ -90,7 +90,7 @@
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.BackColor = Color.Transparent;
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Location = new Point(806, 113);
+            flowLayoutPanel1.Location = new Point(821, 71);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(704, 88);
             flowLayoutPanel1.TabIndex = 9;
@@ -111,9 +111,9 @@
             // 
             flowLayoutPanel2.BackColor = Color.Transparent;
             flowLayoutPanel2.Controls.Add(label3);
-            flowLayoutPanel2.Location = new Point(33, 113);
+            flowLayoutPanel2.Location = new Point(141, 71);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Size = new Size(685, 136);
+            flowLayoutPanel2.Size = new Size(632, 121);
             flowLayoutPanel2.TabIndex = 4;
             // 
             // label4
@@ -133,9 +133,9 @@
             flowLayoutPanel3.AutoScroll = true;
             flowLayoutPanel3.BackColor = Color.Transparent;
             flowLayoutPanel3.Controls.Add(label4);
-            flowLayoutPanel3.Location = new Point(803, 402);
+            flowLayoutPanel3.Location = new Point(824, 334);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
-            flowLayoutPanel3.Size = new Size(622, 319);
+            flowLayoutPanel3.Size = new Size(577, 257);
             flowLayoutPanel3.TabIndex = 11;
             // 
             // INFO_Unidade
@@ -144,14 +144,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlDarkDark;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1497, 878);
+            ClientSize = new Size(1478, 707);
             Controls.Add(flowLayoutPanel3);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(label2);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "INFO_Unidade";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             Load += INFO_Unidade_Load;
             panel1.ResumeLayout(false);

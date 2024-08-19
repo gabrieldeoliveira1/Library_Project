@@ -79,10 +79,12 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1497, 898);
+            ClientSize = new Size(1515, 945);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "TELA_Reserva_Feita";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_Reserva_Feita";
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);

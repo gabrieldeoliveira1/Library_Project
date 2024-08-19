@@ -36,8 +36,10 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1497, 898);
+            ClientSize = new Size(1482, 711);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "TELA_Perg_Frequentes";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_Perg_Frequentes";
             ResumeLayout(false);
         }

@@ -28,7 +28,7 @@ namespace Library_Project.controle
                 //monto o vetor com os valores do formulario
                 string[] valores = {  reservas.DT_reserva, reservas.DT_previsao_devolucao, reservas.CFK_User, reservas.CFK_Livro };
                 //testar o insert no banco de dados
-                if (conexao.cadastrar_CMD_MYSql(0, campos, valores, sql, "CD_Reservas") >= 1)
+                if (conexao.cadastrar_CMD_MYSql(0, campos, valores, sql, "@CD_Reservas") >= 1)
                 {
                     resultado = true;
                 }

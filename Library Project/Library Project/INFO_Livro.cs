@@ -11,6 +11,7 @@ namespace Library_Project
     {
         //criar a instancia do objeto usuario
         ControleLivro controle = new ControleLivro();
+        Conexao cn = new Conexao();
         string descricao;
         String codi = "";
         String nom = "";
@@ -28,7 +29,7 @@ namespace Library_Project
 
         public INFO_Livro(ModeloLivro livro, ClUserModelo user)
         {
-            user.ID_Aluno = "1ghjg1jg12";
+            user.ID_Aluno = "ALU001";
             codigo = user.ID_Aluno.ToString();
             codi = livro.CD_Livro;
             InitializeComponent();
@@ -39,15 +40,15 @@ namespace Library_Project
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Conexao cn = new Conexao();
+            
             try
             {
                 DataTable dados;
                 dados = cn.obterdados("Select * from Table_Livro where CD_Livro = '" + codi + "'");
 
-                descricao = dados.Rows[0][7].ToString();
+                descricao = dados.Rows[0]["Descricao_Livro"].ToString();
                 label1.Text = descricao;
-                label2.Text = dados.Rows[0][1].ToString();
+                label2.Text = dados.Rows[0]["Nome_Livro"].ToString();
 
                 //DataTable cadastro;
                 //cadastro = cn.cadastrar ("INSERT INTO Table_reservas (CFK_Livro) VALUES ({label2.Text})");
@@ -66,6 +67,9 @@ namespace Library_Project
             Conexao conexao = new Conexao();
             ModeloReservas re = new ModeloReservas();
             ControleReservas ctr = new ControleReservas();
+
+            DataTable dados;
+            dados = cn.obterdados("Select * from Table_Livro where CD_Livro = '" + codi + "'");
 
             DataTable data_aluno;
             data_aluno = conexao.obterdados("Select * from Table_User where ID_Aluno = '" + codigo + "'");
@@ -88,29 +92,45 @@ namespace Library_Project
             if (dia_devolucao > 28)
             {
                 mon_devolucao = mon1 + 1;
-                dia_devolucao = 1;
+                dia_devolucao = 1 + (dia_devolucao - 27);
                 if(mon_devolucao > 12)
                 {
                     ano_devolucao = ano1 + 1;
                     mon_devolucao = 1;
                 }
+                else
+                {
+                    ano_devolucao = ano1;
+                }
 
-                data_devolucao = mon_devolucao.ToString() + "-"+ dia_devolucao.ToString() + "-" + ano_devolucao.ToString() + " " + hora + ":" + minutos + ":" + seg;
+
+            }
+            else
+            {
+                ano_devolucao = ano1;
+                mon_devolucao = mon1;
+                dia_devolucao = dia1;
             }
 
-            string datas = mon + dia + ano + hora + minutos + seg;
+            data_devolucao = ano_devolucao.ToString() + "-" + mon_devolucao.ToString() + "-" + dia_devolucao.ToString() + " " + hora + ":" + minutos + ":" + seg;
+            string datas = ano + "-" + mon  + "-" + dia + " " + hora + ":" + minutos + ":" + seg;
             //datas2 se refere a data de previsão de devolução.
-            string datas2 = mon + dia + ano + hora + minutos + seg;
+            string datas2 = ano + "-" + mon  + "-" + dia + " " + hora + ":" + minutos + ":" + seg;
 
             re.DT_reserva = datas;
             re.DT_previsao_devolucao = data_devolucao;
-            re.CFK_Livro = label2.Text;
+            re.CFK_Livro = dados.Rows[0]["Order_Livro"].ToString();
             re.CFK_User = data_aluno.Rows[0]["ID_Aluno"].ToString();
             
-            if(ctr.registrar_Reserva(re) == true)
+                if(ctr.registrar_Reserva(re) == true)
             {
                 TELA_Reserva_Feita tr = new TELA_Reserva_Feita();
                 tr.ShowDialog();
+            }
+            else
+            {
+                TELA_ReservaNegada rn = new TELA_ReservaNegada();
+                rn.ShowDialog();
             }
         }
 

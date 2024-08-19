@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TELA_ReservaNegada));
             BNT_Voltar_pagina_reserva = new Button();
             panel1 = new Panel();
-            button1 = new Button();
             BNT_Voltar_Pag_reserva = new Button();
+            button1 = new Button();
             BNT_Voltar_catalogo_1 = new Button();
             panel2 = new Panel();
             panel1.SuspendLayout();
@@ -62,18 +62,6 @@
             panel1.Size = new Size(549, 53);
             panel1.TabIndex = 2;
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.BackgroundImageLayout = ImageLayout.Stretch;
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.ForeColor = Color.FromArgb(9, 90, 162);
-            button1.Location = new Point(-21, -28);
-            button1.Name = "button1";
-            button1.Size = new Size(591, 108);
-            button1.TabIndex = 2;
-            button1.UseVisualStyleBackColor = false;
-            // 
             // BNT_Voltar_Pag_reserva
             // 
             BNT_Voltar_Pag_reserva.BackColor = Color.Transparent;
@@ -85,6 +73,18 @@
             BNT_Voltar_Pag_reserva.Size = new Size(591, 108);
             BNT_Voltar_Pag_reserva.TabIndex = 3;
             BNT_Voltar_Pag_reserva.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.ForeColor = Color.FromArgb(9, 90, 162);
+            button1.Location = new Point(-21, -28);
+            button1.Name = "button1";
+            button1.Size = new Size(591, 108);
+            button1.TabIndex = 2;
+            button1.UseVisualStyleBackColor = false;
             // 
             // BNT_Voltar_catalogo_1
             // 
@@ -112,10 +112,12 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1497, 898);
+            ClientSize = new Size(1515, 945);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "TELA_ReservaNegada";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_ReservaNegada";
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);

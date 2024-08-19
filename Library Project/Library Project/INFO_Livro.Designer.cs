@@ -38,7 +38,6 @@
             label2 = new Label();
             flowLayoutPanel2 = new FlowLayoutPanel();
             panel1.SuspendLayout();
-            panel2.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
             SuspendLayout();
@@ -62,9 +61,9 @@
             BNT_Reservar.BackgroundImageLayout = ImageLayout.Stretch;
             BNT_Reservar.FlatStyle = FlatStyle.Popup;
             BNT_Reservar.ForeColor = Color.FromArgb(9, 90, 162);
-            BNT_Reservar.Location = new Point(-114, -30);
+            BNT_Reservar.Location = new Point(679, 640);
             BNT_Reservar.Name = "BNT_Reservar";
-            BNT_Reservar.Size = new Size(798, 111);
+            BNT_Reservar.Size = new Size(632, 35);
             BNT_Reservar.TabIndex = 1;
             BNT_Reservar.UseVisualStyleBackColor = false;
             BNT_Reservar.Click += BNT_Reservar_Click;
@@ -81,7 +80,6 @@
             // panel2
             // 
             panel2.BackColor = Color.Transparent;
-            panel2.Controls.Add(BNT_Reservar);
             panel2.Location = new Point(679, 765);
             panel2.Name = "panel2";
             panel2.Size = new Size(674, 42);
@@ -103,9 +101,9 @@
             flowLayoutPanel1.AutoScroll = true;
             flowLayoutPanel1.BackColor = Color.Transparent;
             flowLayoutPanel1.Controls.Add(label1);
-            flowLayoutPanel1.Location = new Point(625, 382);
+            flowLayoutPanel1.Location = new Point(674, 314);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(756, 361);
+            flowLayoutPanel1.Size = new Size(637, 304);
             flowLayoutPanel1.TabIndex = 5;
             flowLayoutPanel1.Paint += flowLayoutPanel1_Paint;
             // 
@@ -125,7 +123,7 @@
             // 
             flowLayoutPanel2.BackColor = Color.Transparent;
             flowLayoutPanel2.Controls.Add(label2);
-            flowLayoutPanel2.Location = new Point(625, 93);
+            flowLayoutPanel2.Location = new Point(674, 72);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(753, 109);
             flowLayoutPanel2.TabIndex = 7;
@@ -135,17 +133,18 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1497, 898);
+            ClientSize = new Size(1500, 758);
+            Controls.Add(BNT_Reservar);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "INFO_Livro";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
-            panel2.ResumeLayout(false);
             flowLayoutPanel1.ResumeLayout(false);
             flowLayoutPanel1.PerformLayout();
             flowLayoutPanel2.ResumeLayout(false);
