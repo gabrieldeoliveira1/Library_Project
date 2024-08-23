@@ -145,13 +145,13 @@ namespace Library_Project
                 }
                 else
                 {
-                    TELA_ReservaNegada rn = new TELA_ReservaNegada();
+                    TELA_ReservaNegada rn = new TELA_ReservaNegada(ModeloUser);
                     rn.ShowDialog();
                 }
             }
             else
             {
-                TELA_ReservaNegada tn = new TELA_ReservaNegada();
+                TELA_ReservaNegada tn = new TELA_ReservaNegada(ModeloUser);
                 tn.ShowDialog();
             }
         }

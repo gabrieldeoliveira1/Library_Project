@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\info_livro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\frmcatalogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reserva_feita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|c:\\users\\aluno\\documents\\github\\library_project\\library project\\library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{37525078-0744-4BD7-93BE-5707F03771F8}|Library Project\\Library Project.csproj|solutionrelative:library project\\tela_reservanegada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "INFO_Livro.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
               "RelativeDocumentMoniker": "Library Project\\INFO_Livro.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\INFO_Livro.cs",
               "RelativeToolTip": "Library Project\\INFO_Livro.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAowIMAAABkAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAawJkAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T13:20:19.537Z",
               "IsPinned": true,
@@ -36,7 +60,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Program.cs",
+              "RelativeDocumentMoniker": "Library Project\\Program.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\Program.cs",
+              "RelativeToolTip": "Library Project\\Program.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowBAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:19:32.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "FrmCatalogo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\FrmCatalogo.cs",
+              "RelativeDocumentMoniker": "Library Project\\FrmCatalogo.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\FrmCatalogo.cs",
+              "RelativeToolTip": "Library Project\\FrmCatalogo.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwDkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:50:20.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TELA_ReservaNegada.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_ReservaNegada.cs",
+              "RelativeDocumentMoniker": "Library Project\\TELA_ReservaNegada.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_ReservaNegada.cs",
+              "RelativeToolTip": "Library Project\\TELA_ReservaNegada.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:45:31.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TELA_Reserva_Feita.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Feita.cs",
+              "RelativeDocumentMoniker": "Library Project\\TELA_Reserva_Feita.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Feita.cs",
+              "RelativeToolTip": "Library Project\\TELA_Reserva_Feita.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:43:18.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TELA_Reserva_Feita.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Feita.cs",
+              "RelativeDocumentMoniker": "Library Project\\TELA_Reserva_Feita.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_Reserva_Feita.cs [Projeto]",
+              "RelativeToolTip": "Library Project\\TELA_Reserva_Feita.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:43:16.91Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCatalogo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\FrmCatalogo.cs",
+              "RelativeDocumentMoniker": "Library Project\\FrmCatalogo.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\FrmCatalogo.cs [Projeto]",
+              "RelativeToolTip": "Library Project\\FrmCatalogo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T15:49:52.419Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "TELA_ReservaNegada.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Library_Project\\Library Project\\Library Project\\TELA_ReservaNegada.cs",
               "RelativeDocumentMoniker": "Library Project\\TELA_ReservaNegada.cs",

@@ -35,6 +35,8 @@
             button1 = new Button();
             BNT_Voltar_catalogo_1 = new Button();
             panel2 = new Panel();
+            label1 = new Label();
+            label2 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -107,21 +109,50 @@
             panel2.Size = new Size(577, 53);
             panel2.TabIndex = 6;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Source Code Pro", 14F, FontStyle.Bold);
+            label1.ForeColor = Color.FromArgb(255, 207, 0);
+            label1.Location = new Point(317, 219);
+            label1.Name = "label1";
+            label1.Size = new Size(99, 36);
+            label1.TabIndex = 7;
+            label1.Text = "label1";
+            label1.Click += label1_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Source Code Pro", 14F, FontStyle.Bold);
+            label2.ForeColor = Color.FromArgb(255, 207, 0);
+            label2.Location = new Point(235, 301);
+            label2.Name = "label2";
+            label2.Size = new Size(99, 36);
+            label2.TabIndex = 8;
+            label2.Text = "label2";
+            // 
             // TELA_ReservaNegada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1515, 775);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "TELA_ReservaNegada";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_ReservaNegada";
+            Load += TELA_ReservaNegada_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -132,5 +163,7 @@
         private Button button1;
         private Button BNT_Voltar_catalogo_1;
         private Panel panel2;
+        private Label label1;
+        private Label label2;
     }
 }

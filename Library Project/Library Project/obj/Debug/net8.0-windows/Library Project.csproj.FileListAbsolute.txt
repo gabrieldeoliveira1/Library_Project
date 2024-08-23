@@ -38,3 +38,4 @@ C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library Project.csproj.AssemblyReference.cache
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library .4639BBD5.Up2Date
 C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.Form1.resources
+C:\Users\Aluno\Documents\GitHub\Library_Project\Library Project\Library Project\obj\Debug\net8.0-windows\Library_Project.FrmCatalogo.resources
