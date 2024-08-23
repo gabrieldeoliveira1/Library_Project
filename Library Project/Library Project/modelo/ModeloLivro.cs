@@ -8,8 +8,9 @@ namespace Library_Project.modelo
 {
     public class ModeloLivro
     {
-        
+
         //declaro as variaveis do sistema com relacao ao banco de dados
+        public int Order_Livro;
         public string CD_Livro;
         public string Nome_Livro;
         public int QTD_estoque;
@@ -22,7 +23,7 @@ namespace Library_Project.modelo
         public ModeloLivro() {
 
             //iniciar as variaveis zeradas
-
+            Order_Livro = 0;
             Nome_Livro = "";
             QTD_estoque = 0;
             Numb_Paginas = 0;

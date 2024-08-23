@@ -115,6 +115,7 @@
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Size = new Size(632, 121);
             flowLayoutPanel2.TabIndex = 4;
+            flowLayoutPanel2.Paint += flowLayoutPanel2_Paint;
             // 
             // label4
             // 

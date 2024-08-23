@@ -37,9 +37,11 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             label2 = new Label();
             flowLayoutPanel2 = new FlowLayoutPanel();
+            panel3 = new Panel();
             panel1.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             flowLayoutPanel2.SuspendLayout();
+            panel3.SuspendLayout();
             SuspendLayout();
             // 
             // BNT_Voltar_ao_inicio
@@ -61,9 +63,9 @@
             BNT_Reservar.BackgroundImageLayout = ImageLayout.Stretch;
             BNT_Reservar.FlatStyle = FlatStyle.Popup;
             BNT_Reservar.ForeColor = Color.FromArgb(9, 90, 162);
-            BNT_Reservar.Location = new Point(679, 640);
+            BNT_Reservar.Location = new Point(-23, -13);
             BNT_Reservar.Name = "BNT_Reservar";
-            BNT_Reservar.Size = new Size(632, 35);
+            BNT_Reservar.Size = new Size(660, 53);
             BNT_Reservar.TabIndex = 1;
             BNT_Reservar.UseVisualStyleBackColor = false;
             BNT_Reservar.Click += BNT_Reservar_Click;
@@ -128,13 +130,22 @@
             flowLayoutPanel2.Size = new Size(753, 109);
             flowLayoutPanel2.TabIndex = 7;
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(BNT_Reservar);
+            panel3.Location = new Point(697, 637);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(614, 35);
+            panel3.TabIndex = 8;
+            // 
             // INFO_Livro
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1500, 758);
-            Controls.Add(BNT_Reservar);
+            Controls.Add(panel3);
             Controls.Add(flowLayoutPanel2);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(panel2);
@@ -149,6 +160,7 @@
             flowLayoutPanel1.PerformLayout();
             flowLayoutPanel2.ResumeLayout(false);
             flowLayoutPanel2.PerformLayout();
+            panel3.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -162,5 +174,6 @@
         private FlowLayoutPanel flowLayoutPanel1;
         private Label label2;
         private FlowLayoutPanel flowLayoutPanel2;
+        private Panel panel3;
     }
 }
