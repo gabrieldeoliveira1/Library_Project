@@ -12,7 +12,9 @@ namespace Library_Project
         //criar a instancia do objeto usuario
         ControleLivro controle = new ControleLivro();
         ModeloLivro ModeloLivro = new ModeloLivro();
+        ModeloUnidade modelounidade = new ModeloUnidade();
         ClUserModelo ModeloUser = new ClUserModelo();
+
         Conexao cn = new Conexao();
         string descricao;
         String codi = "";
@@ -30,23 +32,32 @@ namespace Library_Project
         int mon1 = 0;
         int ano1 = 0;
 
-        public INFO_Livro(ModeloLivro livro, ClUserModelo user)
+        public INFO_Livro(ModeloLivro livro, ClUserModelo user, ModeloUnidade unidade)
         {
+
             this.ModeloUser = user;
-            this.ModeloLivro= livro;
-            user.ID_Aluno = "ALU001";
-            codigo = user.ID_Aluno.ToString();
+            this.ModeloLivro = livro;
+            this.modelounidade = unidade;
+
+
+            ModeloUser.ID_Aluno = "123456789";
+            DataTable dt_Inicial = new DataTable();
+
+            dt_Inicial = cn.obterdados($"select * from Table_User where ID_Aluno = {ModeloUser.ID_Aluno}");
+
+            ModeloUser.CD_User = (int)dt_Inicial.Rows[0]["CD_User"];
+
+            codigo = ModeloUser.CD_User.ToString();
             codi = livro.CD_Livro;
-            
             InitializeComponent();
 
-   
+
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
             try
             {
                 DataTable dados;
@@ -78,7 +89,7 @@ namespace Library_Project
             DataTable dt = new DataTable();
             dt = cn.obterdados("Select * from Table_Reservas where CFK_Livro = " + cd);
 
-            if (dt.Rows.Count <=0)
+            if (dt.Rows.Count <= 0)
             {
                 Conexao conexao = new Conexao();
                 ModeloReservas re = new ModeloReservas();
@@ -88,7 +99,7 @@ namespace Library_Project
                 dados = cn.obterdados("Select * from Table_Livro where CD_Livro = '" + codi + "'");
 
                 DataTable data_aluno;
-                data_aluno = conexao.obterdados("Select * from Table_User where ID_Aluno = '" + codigo + "'");
+                data_aluno = conexao.obterdados("Select * from Table_User where CD_User = '" + codigo + "'");
 
                 dia = DateTime.Now.Day.ToString();
                 dia1 = DateTime.Now.Day;
@@ -136,11 +147,11 @@ namespace Library_Project
                 re.DT_reserva = datas;
                 re.DT_previsao_devolucao = data_devolucao;
                 re.CFK_Livro = dados.Rows[0]["Order_Livro"].ToString();
-                re.CFK_User = data_aluno.Rows[0]["ID_Aluno"].ToString();
+                re.CFK_User = data_aluno.Rows[0]["CD_User"].ToString();
 
                 if (ctr.registrar_Reserva(re) == true)
                 {
-                    TELA_Reserva_Feita tr = new TELA_Reserva_Feita(ModeloUser);
+                    TELA_Reserva_Feita tr = new TELA_Reserva_Feita(ModeloUser, ModeloLivro, modelounidade);
                     tr.ShowDialog();
                 }
                 else
@@ -179,6 +190,13 @@ namespace Library_Project
         private void BNT_Voltar_ao_inicio_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            this.Hide();
+            form1.ShowDialog();
         }
     }
 }

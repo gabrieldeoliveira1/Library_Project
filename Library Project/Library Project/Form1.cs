@@ -1,4 +1,5 @@
 ﻿using Library_Project.modelo;
+using Microsoft.VisualBasic.ApplicationServices;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,11 +19,10 @@ namespace Library_Project
         ModeloReservas Modeloreserva = new ModeloReservas();
         ClUserModelo clUser = new ClUserModelo();
         Conexao cn = new Conexao();
-
         public Form1()
 
-
         {
+
             InitializeComponent();
         }
 
@@ -30,18 +30,22 @@ namespace Library_Project
         {
             //passou o valor selecionado fixo
             modeloLivro.CD_Livro = comboBox1.Text;
-           // modeloLivro.CD_Livro = "320C111L2021";
-            INFO_Livro info = new INFO_Livro(modeloLivro, clUser);
+            // modeloLivro.CD_Livro = "320C111L2021";
+            DataTable dt_unit = cn.obterdados("Select * from Table_Livro where Order_Livro = '" + (comboBox1.SelectedIndex + 1).ToString() + "'");
+            modeloLivro.Index_Unidade = (int)dt_unit.Rows[0]["CFK_Unidade"];
+            unidade.CD_Unidade = modeloLivro.Index_Unidade;
+            INFO_Livro info = new INFO_Livro(modeloLivro, clUser, unidade);
             info.ShowDialog();
 
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-              
+
             // isso é apenas para teste 
-            modeloLivro.Index_Unidade = comboBox1.SelectedIndex + 1;
+            DataTable dt_unit = cn.obterdados("Select * from Table_Livro where Order_Livro = '" + (comboBox1.SelectedIndex + 1).ToString() + "'");
             //continuação
+            modeloLivro.Index_Unidade = (int)dt_unit.Rows[0]["CFK_Unidade"];
             unidade.CD_Unidade = modeloLivro.Index_Unidade;
             modeloLivro.CD_Livro = comboBox1.Text;
 

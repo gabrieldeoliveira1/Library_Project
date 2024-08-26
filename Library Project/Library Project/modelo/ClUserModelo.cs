@@ -8,6 +8,7 @@ namespace Library_Project.modelo
 {
     public class ClUserModelo
     {
+            public int CD_User;
             public String ID_Aluno;
             public String NomeComp;
             public String UserName;
@@ -18,6 +19,7 @@ namespace Library_Project.modelo
 
             public ClUserModelo()
             {
+                CD_User = 0;
                 ID_Aluno = "";
                 NomeComp = "";
                 UserName = "";

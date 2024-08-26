@@ -37,8 +37,14 @@
             panel2 = new Panel();
             label1 = new Label();
             label2 = new Label();
+            panel3 = new Panel();
+            button2 = new Button();
+            panel4 = new Panel();
+            button3 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
             // BNT_Voltar_pagina_reserva
@@ -134,12 +140,55 @@
             label2.TabIndex = 8;
             label2.Text = "label2";
             // 
+            // panel3
+            // 
+            panel3.BackColor = Color.Transparent;
+            panel3.Controls.Add(button2);
+            panel3.Location = new Point(132, 610);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(575, 132);
+            panel3.TabIndex = 9;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.FlatStyle = FlatStyle.Popup;
+            button2.ForeColor = SystemColors.ControlText;
+            button2.Location = new Point(-18, -10);
+            button2.Name = "button2";
+            button2.Size = new Size(609, 163);
+            button2.TabIndex = 10;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = Color.Transparent;
+            panel4.Controls.Add(button3);
+            panel4.Location = new Point(771, 679);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(623, 84);
+            panel4.TabIndex = 10;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Transparent;
+            button3.FlatStyle = FlatStyle.Popup;
+            button3.Location = new Point(-30, -18);
+            button3.Name = "button3";
+            button3.Size = new Size(674, 112);
+            button3.TabIndex = 11;
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // TELA_ReservaNegada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1515, 775);
+            Controls.Add(panel4);
+            Controls.Add(panel3);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(panel2);
@@ -151,6 +200,8 @@
             Load += TELA_ReservaNegada_Load;
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            panel4.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -165,5 +216,9 @@
         private Panel panel2;
         private Label label1;
         private Label label2;
+        private Panel panel3;
+        private Button button2;
+        private Panel panel4;
+        private Button button3;
     }
 }

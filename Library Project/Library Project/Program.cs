@@ -14,7 +14,7 @@ namespace Library_Project
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
         
-            Application.Run(new FrmCatalogo());
+            Application.Run(new Form1());
         }
     }
 }
