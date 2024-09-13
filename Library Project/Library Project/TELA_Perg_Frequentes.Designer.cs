@@ -41,6 +41,7 @@
             Name = "TELA_Perg_Frequentes";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "TELA_Perg_Frequentes";
+            Load += TELA_Perg_Frequentes_Load;
             ResumeLayout(false);
         }
 

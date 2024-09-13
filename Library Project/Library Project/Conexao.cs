@@ -10,13 +10,13 @@ namespace Library_Project
 {
     public class Conexao
     {
-        static private string servidor = "localhost";
+        static private string servidor = "sql10.freemysqlhosting.net";
         //nome do bd
-        static private string DB = "biblio_sesi";
+        static private string DB = "sql10731213";
         //usuario bd
-        static private string usuario = "root";
+        static private string usuario = "sql10731213";
         //senha de acesso ao bd
-        static private string senhas = "";
+        static private string senhas = "ITTmkP4d2a";
         //variavel de conexao ao bd
         public MySqlConnection conn = null;
         //caminho da conexao ao bd
@@ -94,10 +94,10 @@ namespace Library_Project
             MySqlDataAdapter adpt = new MySqlDataAdapter(cmd);
             //adiciona à datatable os valores
             adpt.Fill(dt);
-            
-            return dt;  
+              
+            conn.Close();
+            return dt;
 
-            conn.Close();   
         }
 
         }

@@ -16,5 +16,10 @@ namespace Library_Project
         {
             InitializeComponent();
         }
+
+        private void TELA_Perg_Frequentes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

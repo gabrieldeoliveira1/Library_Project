@@ -88,10 +88,10 @@ namespace Library_Project
 
 
                 DataTable dados_data;
-                DataTable DT_Pegar = cn.obterdados("select * from Table_Reservas");
+                DataTable DT_Pegar = cn.obterdados("select * from Table_reservas");
                 if (DT_Pegar.Rows.Count > 0)
                 {
-                    dados_data = cn.obterdados($"Select ABS(DATEDIFF('{data_Hoje}', DT_previsao_devolucao)) - 1 AS dias_faltando from Table_Reservas where CD_Reservas = {DT_Pegar.Rows.Count}");
+                    dados_data = cn.obterdados($"Select ABS(DATEDIFF('{data_Hoje}', DT_previsao_devolucao)) - 1 AS dias_faltando from Table_reservas where CD_Reservas = {DT_Pegar.Rows.Count}");
                     label3.Text = dados_data.Rows[0][0].ToString();
                 }
             }

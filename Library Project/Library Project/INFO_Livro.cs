@@ -87,7 +87,7 @@ namespace Library_Project
         {
 
             DataTable dt = new DataTable();
-            dt = cn.obterdados("Select * from Table_Reservas where CFK_Livro = " + cd);
+            dt = cn.obterdados("Select * from Table_reservas where CFK_Livro = " + cd);
 
             if (dt.Rows.Count <= 0)
             {
